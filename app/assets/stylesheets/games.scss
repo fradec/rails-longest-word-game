@@ -11,7 +11,8 @@ h1 {
 }
 
 li {
-  display: inline;
+  display: inline-block;
+  width: 30px;
   margin-right: 30px;
   border: 1px solid #3398DC;
   background-color: #3398DC;
@@ -24,3 +25,18 @@ li {
 form {
   margin: 50px;
 }
+
+a {
+  display: inline-block;
+  margin-top: 50px;
+  text-decoration: none;
+  border: 1px solid #3398DC;
+  background-color: #3398DC;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 4px rgba(51, 152, 201, 0.7);
+  border-radius: 2px;
+}
+
